@@ -16,8 +16,7 @@ TextReader data =new TextReader(new FileReader("d:\\BIT CAMP\\MergeSortAppInputF
 System.out.println("Merge Sort Test\n");
 int n, i;
 // read number of elements from file
-System.out.println("Enter number of integer elements");
-//n = scan.nextInt();
+
 n=data.getInt();
 // Create array of n elements
 int arr[] = new int[n];
