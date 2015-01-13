@@ -21,7 +21,6 @@ n=data.getInt();
 // Create array of n elements
 int arr[] = new int[n];
  //read elements from file
-System.out.println("\nEnter " + n + " integer elements");
 for (i = 0; i < n; i++) {
 	int br = data.getInt();
 	arr[i]=br;
